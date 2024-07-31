@@ -1,0 +1,140 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Hero Section */
+
+.hero{  
+    background-color: #1f2937;
+    padding: 10px 150px 100px;
+}
+
+/* Hero - Navigation Bar */
+
+.navigation-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.nav-options{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+header a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* Hero - Primary Text and Image */
+
+.main-image-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.hero-primary-text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px 100px 20px 0px;
+}
+
+.signup-button{
+    padding: 8px 25px;
+    background-color: #3883f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero-saree, .more-info-saree{
+    border-radius: 60px;
+}
+
+/* Information Section */
+
+.information-section{
+    margin: 30px 0 60px 0;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+h2, .information-text-images p{
+    text-align: center;
+}
+
+.information-text-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Quote Section */
+
+.quote-section{
+    padding: 100px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+strong{
+    display: block;
+    margin-left: 750px;
+}
+
+/* Call to Action Section */
+
+.call-to-action{
+    background-color: #3882f6;
+    margin: 100px 250px;
+    padding: 30px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.call-to-action-button{
+    border:#e5e7eb;
+    border-style: solid;
+}
+
+/* Footer Section */
+
+.footer-section{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 40px;
+}
